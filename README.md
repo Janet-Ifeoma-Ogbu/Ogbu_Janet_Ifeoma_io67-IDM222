@@ -1,4 +1,6 @@
 
-# IDM 221 Final Project
 
-This repo is for IDM 221 assignments and final.
+## Assignment 3
+
+This folder contains my Assignment 3.
+I practiced adding images, anchors, same-page links, and relative paths.
