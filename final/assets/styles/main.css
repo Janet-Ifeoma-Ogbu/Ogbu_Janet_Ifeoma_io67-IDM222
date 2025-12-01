@@ -51,7 +51,7 @@ body {
   color: #9a9898;
 }
 
-.header nav a li{
+.header nav a ul{
   display: flex;
   color: #a3a3a3;
   padding-left: 3em;
@@ -60,12 +60,12 @@ body {
 }
 
 
-.header nav a li:hover {
+.header nav a ul:hover {
   color: pink;
   font-weight: 700;
 }
 
-.header nav a li#active {
+.header nav a ul#active {
   text-decoration: underline;
   text-decoration-color: pink;
   font-weight: 700;
