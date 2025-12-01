@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Apply box-sizing to all elements */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+
+/* Body styling */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Elms Sans", sans-serif;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2em;
+}
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #9a9898; 
+  padding-bottom: 1em;
+}
+
+.header nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+ 
+}
+.header nav a{
+  text-decoration: none;
+}
+
+.header a{
+  text-decoration: none;
+}
+.header a h1{
+  
+  color: #9a9898;
+}
+
+.header nav a li{
+  display: flex;
+  color: #a3a3a3;
+  padding-left: 3em;
+  font-weight: 400;
+  transition: color 0.3s ease, font-weight 0.3s ease;
+}
+
+
+.header nav a li:hover {
+  color: pink;
+  font-weight: 700;
+}
+
+.header nav a li#active {
+  text-decoration: underline;
+  text-decoration-color: pink;
+  font-weight: 700;
+}
+
+main .hero{
+  background-color: pink;
+  width: 100%;
+  height: 32.2em;
+  align-self: center;
+  border-radius: 0.5em;
+  position: relative;
+  margin-bottom: 10em;
+}
+
+main .hero img{
+  border-radius: 0.5em;
+  justify-self: center;
+  width: 100%;
+  object-fit: cover;
+  height: 32em;
+}
+
+main .hero h2{
+  font-size: 3rem;
+  text-transform: capitalize;
+  color: rgb(255, 239, 242);
+  position: absolute;
+  top: 40%;         
+  left: 22%;        
+  transform: translate(-50%, -50%);
+  font-weight: bolder;
+  width: 25rem;
+}
+main .hero p{
+  font-size:1rem;
+  color: rgb(255, 239, 242);
+}
+
+
+/* Projects */
+
+.projects{
+  margin: 5em 0;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ h3.projects-text{
+  font-size:4rem;
+  color: black;
+
+}
+
+.projects h3{
+  font-size: 3rem;
+}
+
+.projects .project1 img{
+  background-color: #ededed;
+  width: 15em;
+  height: 15em;
+  text-align: center;
+  border-radius: 0.5em;
+  color: #000;
+  font-size: 2em;
+  
+}
+
+.projects .project2 img{
+  background-color: #ededed;
+  width: 15em;
+  height: 15em;
+  text-align: center;
+  border-radius: 0.5em;
+  color: #000;
+  font-size: 2em;
+  
+}
+
+
+
+/* About */
+.about{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.about p{
+  width: 50%;
+  line-height: 2em;
+}
+
+.about img{
+  width: 40%;
+}
+
+
+
+/* Resume*/
+.resume{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.resume a{
+  text-decoration: none;
+}
+.resume a h3{
+  padding: 10px ;
+  background-color: pink;
+  color: #000;
+}
+
+.resume a h3:hover{
+  padding: 10px ;
+  background-color: #000;
+  color: rgb(255, 239, 242);
+  
+}
+
+/* Footer text*/
+
+.footer-text{
+  padding: 2em 0;
+}
+
+.footer-text h2{
+  font-size:5rem;
+  color: black;
+}
+
+.footer-text p{
+  font-size:2rem;
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 192, 203);
+}
