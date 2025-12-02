@@ -195,6 +195,10 @@ main .hero p{
 .footer-text{
   padding: 2em 0;
 }
+.footer-text .contact-icons img{
+  width: 25px;
+  height: 25px;
+}
 
 .footer-text h2{
   font-size:5rem;
