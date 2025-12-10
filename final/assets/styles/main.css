@@ -138,6 +138,7 @@ body {
 .projects .project img{
   background-color: #ededed;
   width: 100%;  
+  height: max-content;
   text-align: center;
   border-radius: 0.5em;
   color: #000;
@@ -145,7 +146,18 @@ body {
   
 }
 
+.see-all {
+  display: flex;
+  justify-content: center;
+   width: 100%;
+  display: flex;
+  padding: 20px 0;
 
+}
+
+.see-all a{
+   color: #000;
+}
 
 
 /* About */
@@ -198,12 +210,17 @@ body {
   height: 25px;
 }
 
+.footer-text .contact-icons a{
+  text-decoration: none;
+  
+}
+
 .footer-text h2{
   font-size:5rem;
   color: black;
 }
 
-.footer-text p{
+.footer-text a{
   font-size:2rem;
   color: black;
   text-decoration: underline;
@@ -227,9 +244,7 @@ body {
   font-weight: bolder;
   color: rgb(255, 239, 242);
 }
-.hero-right-column{
- 
-}
+
 h3.projects-text{
   font-size: 2rem;
 }
