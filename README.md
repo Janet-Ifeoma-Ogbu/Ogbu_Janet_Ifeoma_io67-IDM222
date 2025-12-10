@@ -1,6 +1,7 @@
 
 
-## Assignment 3
+## Final project
 
-This folder contains my Assignment 3.
-I practiced adding images, anchors, same-page links, and relative paths.
+## Extra Credit Completed
+- ✅ Responsive home page with media queries (mobile, tablet, desktop breakpoints)
+- ✅ Added custom favicon
