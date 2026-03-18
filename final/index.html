@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/styles/main.css">
     <link rel="stylesheet" href="./assets/styles/normalize.css">
     <link rel="icon" type="image/png" href="./assets/images/favicon.png">
@@ -15,20 +15,25 @@
 <body class="container">
     <header class="header">
       <a class="logo" href="./index.html">Janet Ifeoma</a>  
-        <nav>  
-        <a href="./about.html" >About</a>     
-        <a href="./projects.html" >Projects</a>    
-        <a href="./contact.html" >Contact</a>    
-        <a href="./resume.html" >Resume</a>    
-        </nav>
+        <nav class="nav">  
+        <a href="./about.html">About</a>     
+        <a href="./projects.html">Projects</a>       
+        <a href="./resume.html">Resume</a> 
+      </nav>
+
+      <div class="controls">
+        <button class="theme-toggle">🌙</button>
+        <button class="menu-toggle">☰</button>
+      </div>
 </header>
 
 
 <main>
     <div class="hero">
       <div class="hero-left-column">
-        <h2>Hi, I'm Ifeoma <br>(ee-Forh-mah).</h2>
-        <p> A UX/UI design student based in Philadelphia, Pennsylvania.</p>
+        <h2>Hi, I'm Ifeoma <br>(ee-Foh-mah).</h2>
+        <p> I’m a UX/UI design student with a passion for visual design and design systems, aspiring to become a Product Designer. <br>           <br>
+            I'm passionate about creating clean, intuitive digital experiences fueled by research and creativity. When I’m not designing, you’ll find me painting, making moodboards, and turning ideas into visual stories :)</p>
       </div>
 
       <div class="hero-right-column">
@@ -37,31 +42,26 @@
     </div>
 
 
-    <h3 class="projects-text">Featured Works</h3>
+    <h3 class="projects-text">Featured Works<span style="color: pink;" >*</span> </h3>
     <div class="projects">
         <div class="project project1">
-          <img src="./assets/images/8.png" alt="image of project 1">
-          <h3>Website Redesign</h3>
-          <p>UX ✹ UI</p>
+          <a href="./project1.html"><img src="./assets/images/yahoo proj.png" alt="image of project 1"></a>
+          <h3>Yahoo Redesign </h3>
+          <p>TOOLS: Figma, Balsamiq ✹ UX research</p>
         </div>
 
         <div class="project project2">
-          <img src="./assets/images/7.png" alt="image of project 2  im">
-          <h3>Interaction Design</h3>
-          <p>UX ✹ UI</p>
+          <a href="./project2.html"><img src="./assets/images/SCRG.png" alt="image of project 2  im"></a>
+          <h3>SCRG Redesign</h3>
+          <p>TOOLS: Html5, CSS3, Javascript ✹ UX design</p>
         </div>
 
-        <div class="project project2">
+        <!-- <div class="project project2">
           <img src="./assets/images/10.png" alt="image of project 2  im">
-          <h3>Interaction Design</h3>
+          <h3>Zodiac sign calculator</h3>
           <p>UX ✹ UI</p>
-        </div>
-
-        <div class="project project2">
-          <img src="./assets/images/9.png" alt="image of project 2  im">
-          <h3>Website Redesign</h3>
-          <p>UX ✹ UI</p>
-        </div>    
+        </div> -->
+   
         <div class="see-all" >
           <a href="./projects.html">See all</a>
         </div>
@@ -71,12 +71,12 @@
 
     
 
-  <!-- Your page content goes here -->
+ 
 </main>
 
 <footer>
    <div class="footer-text">
-      <h2>Let's get in touch!</h2>
+      <h2>Let's get in touch! <span style="color: pink;" >*</span></h2>
       <a href="mailto:io67@drexel.edu">io67@drexel.edu</a>
       <div class="contact-icons">
         <a href="https://www.linkedin.com/in/janet-ogbu-407268239/" target="_blank" rel="noopener noreferrer">
@@ -89,8 +89,8 @@
       </div>
     </div>
 
-     <p style="color: black; text-align: center;">&#xA9; Janet Ifeoma</p>
+     <p id="copyright">&#xA9; Janet Ifeoma</p>
 </footer>
-    
+    <script src="./assets/scripts/app.js"></script>
 </body>
 </html>
