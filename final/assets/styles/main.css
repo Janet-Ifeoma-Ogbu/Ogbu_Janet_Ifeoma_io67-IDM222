@@ -164,6 +164,7 @@ body.dark-mode {
   border: none;
   color: var(--text-color);
   cursor: pointer;
+  display: none;
 
   transition: transform 0.2s ease;
 }
@@ -468,6 +469,9 @@ h3.projects-text{
   flex-direction: column;
   width: 100%;
   
+}
+.close-menu{
+  display: block;
 }
 
 .container{
