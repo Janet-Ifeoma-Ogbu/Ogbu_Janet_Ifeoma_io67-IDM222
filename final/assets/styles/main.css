@@ -146,7 +146,6 @@ body.dark-mode {
 }
 .hero-left-column p{
   font-size:1rem;
-  line-height: 30px;
   color: var(--accent-color);
 }
 .hero-img{
@@ -183,7 +182,7 @@ body.dark-mode {
 .projects .project img{
   background-color: #ededed;
   width: 100%;  
-  height: max-content;
+  height: 100%;
   text-align: center;
   border-radius: 0.5em;
   color: var(--text-color);
