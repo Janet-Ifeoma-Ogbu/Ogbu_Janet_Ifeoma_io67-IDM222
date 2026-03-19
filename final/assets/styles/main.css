@@ -357,10 +357,19 @@ a#view-site{
 .resume{
   display: flex;
   justify-content: center;
-  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+  padding: 20px;
 }
 .resume a{
   text-decoration: none;
+}
+.resume img{
+  max-width: 400px;
+  border: 5px solid var(--accent-color);
+  border-radius: 10px;
+
 }
 .resume a h3{
   padding: 10px ;
