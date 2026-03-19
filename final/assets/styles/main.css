@@ -478,6 +478,19 @@ h3.projects-text{
     font-size: 35px;
     padding-left: 1em;
   }
+  .hero{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-left-column{
+    width: 100%;
+    padding:20px;
+  }
+  .hero-right-column {
+    width: 100%;
+    padding: 0;
+  }
 
   .nav.active{
     right: 0; 
