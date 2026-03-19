@@ -378,7 +378,7 @@ a#view-site{
 /* Footer text*/
 
 .footer-text{
-  padding: 2em 0;
+  padding-bottom: 2em ;
 }
 .footer-text .contact-icons img{
   width: 25px;
@@ -418,6 +418,9 @@ a#view-site{
   font-size: 1rem;
 
 }
+.header{
+  padding: 2em 0;
+}
 .hero-left-column p{
   font-size:.5rem;
   color: rgb(255, 239, 242);
@@ -436,6 +439,10 @@ h3.projects-text{
   flex-direction: column;
   width: 100%;
   
+}
+
+.container{
+  padding: 0 1em;
 }
 .about img{
   width: 100%;
