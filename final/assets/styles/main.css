@@ -419,11 +419,11 @@ a#view-site{
 
 }
 .header{
-  padding: 1.5em 0;
+  padding: 2em 0;
 }
 .hero-left-column p{
-  font-size:1rem;
-  line-height: 30px;
+  font-size:.7rem;
+  line-height: 20px;
   color: rgb(255, 239, 242);
 }
 
