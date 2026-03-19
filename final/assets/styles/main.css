@@ -415,14 +415,15 @@ a#view-site{
 
 @media (max-width: 600px) {
   .hero-left-column h2{
-  font-size: 1rem;
+  font-size: 2rem;
 
 }
 .header{
-  padding: 2em 0;
+  padding: 1.5em 0;
 }
 .hero-left-column p{
-  font-size:.5rem;
+  font-size:1rem;
+  line-height: 30px;
   color: rgb(255, 239, 242);
 }
 
