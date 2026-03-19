@@ -47,3 +47,12 @@ document.querySelectorAll(".nav a").forEach(function(link){
     
   });
 });
+
+var closeBtn = document.querySelector(".close-menu");
+
+closeBtn.addEventListener("click", function(){
+
+  nav.classList.remove("active");
+  overlay.classList.remove("show");
+
+});
