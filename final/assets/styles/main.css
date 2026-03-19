@@ -514,9 +514,14 @@ h3.projects-text{
     font-size: 1.5rem;
     line-height: 35px;
   }
- .project-container h6 ,.project-container p{
+ .project-container h6 {
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .project-container p, ul{
     font-size: 14px;
     line-height: 35px;
+    padding: 0;
   }
   .project-container{
     padding: 0;
