@@ -30,25 +30,20 @@ window.addEventListener("DOMContentLoaded", function(){
 // Menu
 var menuBtn = document.querySelector(".menu-toggle");
 var nav = document.querySelector(".nav");
-var overlay = document.querySelector(".overlay");
+
 
 menuBtn.addEventListener("click", function(){
 
   nav.classList.toggle("active");
-  overlay.classList.toggle("show");
+  
 
 });
 
-overlay.addEventListener("click", function(){
 
-  nav.classList.remove("active");
-  overlay.classList.remove("show");
-
-});
 
 document.querySelectorAll(".nav a").forEach(function(link){
   link.addEventListener("click", function(){
     nav.classList.remove("active");
-    overlay.classList.remove("show");
+    
   });
 });
