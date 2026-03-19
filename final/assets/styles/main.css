@@ -422,13 +422,14 @@ a#view-site{
   padding: 2em 0;
 }
 .hero-left-column p{
-  font-size:.7rem;
+  font-size:1rem;
   line-height: 20px;
   color: rgb(255, 239, 242);
 }
 
 h3.projects-text{
   font-size: 2rem;
+  padding: 1.5em 0;
 }
 .projects{
   gap: 2px;
