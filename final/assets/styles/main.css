@@ -497,10 +497,10 @@ h3.projects-text{
   }
   .menu-toggle{
     display: block;
-    font-size: 20px;
+    font-size: 30px;
   }
   .theme-toggle{
-    font-size: 20px;
+    font-size: 30px;
   }
   .projects{
     flex-direction: column;
