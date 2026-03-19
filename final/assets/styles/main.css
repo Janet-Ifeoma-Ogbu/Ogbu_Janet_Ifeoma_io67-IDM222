@@ -68,7 +68,7 @@ body.dark-mode {
   justify-content: space-between;
   align-items: center;
   color: #9a9898; 
-  padding: .5em;
+  padding: .5rem 0;
 }
 
 
@@ -81,6 +81,8 @@ body.dark-mode {
 }
  .controls{
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 10px;
  }
 
@@ -156,7 +158,7 @@ body.dark-mode {
 /* Projects */
 
 .projects{
-  margin: 5em 0;
+  margin: 2em 0;
   display: flex;
   width: 100%;
   gap: 20px;
@@ -418,7 +420,6 @@ a#view-site{
 }
 .hero-left-column p{
   font-size:.5rem;
-  font-weight: bolder;
   color: rgb(255, 239, 242);
 }
 
@@ -437,7 +438,7 @@ h3.projects-text{
   
 }
 .about img{
-  width: 50%;
+  width: 100%;
 }
 .about p{
   width: 100%;
@@ -489,6 +490,10 @@ h3.projects-text{
   }
   .menu-toggle{
     display: block;
+    font-size: 20px;
+  }
+  .theme-toggle{
+    font-size: 20px;
   }
   .projects{
     flex-direction: column;
@@ -533,6 +538,9 @@ h3.projects-text{
   }
   .before-after img, .changes img{
     max-width: 350px;
+  }
+  .hero-img{
+    min-width: 150px;
   }
 }
 
